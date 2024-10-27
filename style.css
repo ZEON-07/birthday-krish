@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-size: 1000px;
+  background-color: beige;
+  background-image: url("https://www.psdgraphics.com/file/2016/red-roses-illustration.png");
+  background-position: center center;
+}
+
+.paper {
+ background-color: azure;
+  background-size: 45px;
+  background-position: center center;
+  padding: 15px 10px;
+  border: black;
+  border-radius: 13%;
+  border-color: black;
+/*  min-width: 800px; */
+  
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  
+  position: absolute;
+}
+
+.paper.heart {
+  
+  position: relative;
+  
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.paper.image {
+  padding: 50px;
+}
+.paper.image p {
+  font-size: 10px;
+}
+
+img {
+  max-height: 200px;
+  width: 100%;
+  user-select: none;
+}
+
+.paper.heart::after {
+  content: "";
+  background-image: url('https://s-media-cache-ak0.pinimg.com/736x/f1/b9/21/f1b921f78712ed176047d2b9a25fde4e.jpg');
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+p {
+  font-family: 'zendaya';
+  font-size: 50px;
+  color: rgb(0,0,100);
+  opacity: 0.75;
+  user-select: none;
+  
+  // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+}
