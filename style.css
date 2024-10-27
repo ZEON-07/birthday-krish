@@ -35,8 +35,8 @@ body {
   
   position: relative;
   
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 250px;
   padding: 0;
   border-radius: 50%;
 }
@@ -49,8 +49,8 @@ body {
 }
 
 img {
-  max-height: 200px;
-  width: 100%;
+  max-height: 500px;
+  width: 250%;
   user-select: none;
 }
 
